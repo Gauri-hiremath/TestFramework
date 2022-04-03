@@ -3,8 +3,9 @@
 <suite name="Suite">
     <test thread-count="1" name="Test">
         <classes>
-            <class name="conifig.DriverConfig"></class>
-            <class name="tests.LoginTests"/>
+            <!--<class name="conifig.DriverConfig"></class>
+            <class name="tests.LoginTests"/>-->
+            <class name="tests.JenkinsTest"></class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
