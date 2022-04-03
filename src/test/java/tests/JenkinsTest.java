@@ -9,6 +9,7 @@ import java.util.Map;
 
 public class JenkinsTest {
     private static final Logger LOG = LoggerFactory.getLogger(JenkinsTest.class);
+
     @Test
     public void processName(){
         Map<String,String > map = new HashMap<>();

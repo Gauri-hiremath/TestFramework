@@ -21,7 +21,6 @@ public class DriverConfig {
 
     static {
         LoadPropertyFiles.readProperty();
-        System.setProperty("driver","chrome");
         driverName = System.getProperty("driver").toLowerCase();
         applicationPath = System.getProperty("user.dir")+File.separator+"src"+File.separator+"drivers";
 
